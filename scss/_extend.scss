@@ -1,0 +1,10 @@
+.primerEstilo{
+    font-size: 45px;
+    font-style: italic;
+
+}
+
+.segundoEstilo{
+    @extend .primerEstilo;
+    text-align: center;
+}

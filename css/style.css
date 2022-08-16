@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Varela+Round&display=swap");
+.parrafosConEstilo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  text-align: center; }
+
+.parrafoConParametroPrueba {
+  font-size: 50px;
+  text-align: center; }
+
+.primerEstilo, .segundoEstilo {
+  font-size: 45px;
+  font-style: italic; }
+
+.segundoEstilo {
+  text-align: center; }
+
+.facebook {
+  color: red; }
+
+.instagram {
+  color: blue; }
+
+.twiter {
+  color: yellow; }
+
+.mapGetPrueba {
+  background-color: red;
+  font-size: 33px; }
+
+main {
+  text-align: center; }
+  main .mainInicio div div div div {
+    background: #f6f6f6;
+    background: radial-gradient(circle, #f6f6f6 7%, rgba(180, 211, 218, 0.543855) 93%);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black 3px;
+    margin: 30px; }
+
+div div img {
+  margin: 20px;
+  border: black solid 3px; }
+
+footer {
+  text-align: center;
+  background-color: #65ecd6;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  margin-top: 500px; }
+
+.formularioContacto {
+  text-align: left;
+  padding: 20px;
+  margin-top: 200px; }
+
+.contacto {
+  font-size: 45px;
+  margin-bottom: 50px; }
+
+.botonContacto {
+  margin: 30px; }
+
+.title {
+  font-size: 35px;
+  margin: 40px;
+  margin-bottom: 200px;
+  border: solid black 3px;
+  border-radius: 10px;
+  background: #f6f6f6;
+  background: radial-gradient(circle, #f6f6f6 25%, #94bbe9 98%); }
+
+.title2 {
+  font-size: 40px;
+  margin: 30px;
+  border: solid black 3px;
+  border-radius: 10px;
+  margin-top: 100px;
+  background: #f6f6f6;
+  background: radial-gradient(circle, #f6f6f6 25%, #94bbe9 98%); }
+
+.video-responsive {
+  margin: 20px;
+  overflow: hidden;
+  padding-bottom: 400px;
+  position: relative;
+  height: 0; }
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+.mapText {
+  font-size: 30px; }
+
+.map {
+  border-radius: 30px; }
+
+body {
+  background-color: aquamarine;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  position: sticky;
+  background: #ecebf2;
+  background: linear-gradient(90deg, #ecebf2 5%, #b7e9f4 42%, #b6e9f4 46%, #acdee9 57%, #75c7cf 97%);
+  height: 500px; }
+  body header {
+    background-image: url(../img/header.png);
+    position: relative;
+    position: sticky;
+    top: 0%;
+    background-size: cover; }
+    body header h1 {
+      text-align: center;
+      font-size: 30px; }
+
+.cuerpoServicio {
+  margin: 40px;
+  margin-bottom: 100px; }
+  .cuerpoServicio ul li p {
+    text-align: left;
+    font-size: 30px; }
+
+.cuerpo {
+  font-size: 25px;
+  margin: 30px;
+  padding: 30px; }
+
+.cuerpoInicio {
+  margin: 10px;
+  padding: 20px; }
+  .cuerpoInicio h4 {
+    font-size: 25px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif; }
+
+.tamLogo {
+  width: 100px; }
+
+.tamTextNav ul li a {
+  font-size: 25px; }
+
+.listaEmpresa {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 100px; }

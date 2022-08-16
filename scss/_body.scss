@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    position: sticky;
+    background: rgb(236, 235, 242);
+    background: linear-gradient(90deg, rgba(236, 235, 242, 1) 5%, rgba(183, 233, 244, 1) 42%, rgba(182, 233, 244, 1) 46%, rgba(172, 222, 233, 1) 57%, rgba(117, 199, 207, 1) 97%);
+    height: 500px;
+
+
+    header {
+        background-image: url(../img/header.png);
+        position: relative;
+        position: sticky;
+        top: 0%;
+        background-size: cover;
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+
+    }
+}

@@ -1,0 +1,14 @@
+$mapRedes:(facebook:red, instagram:blue, twiter:yellow);
+
+@each $red,$color in $mapRedes {
+    .#{$red} {
+        color: $color;
+    }
+
+}
+
+$estilo:(color:red, tamFuente:33px);
+.mapGetPrueba{
+    background-color: map-get($map: $estilo, $key: color );
+    font-size: map-get($map: $estilo, $key: tamFuente);
+}

@@ -1,0 +1,34 @@
+@import "mixin";
+@import "extend";
+@import "maps";
+@import "main";
+@import "contacto";
+@import "titulos";
+@import "video";
+@import "map";
+@import "body";
+@import "cuerpo"; 
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+.tamLogo {
+    width: 100px;
+}
+
+.tamTextNav ul li a {
+    font-size: $tam-fuente;
+}
+
+.listaEmpresa {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+
+
